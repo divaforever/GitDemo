@@ -1,0 +1,22 @@
+    =>  yum install -y amazon-efs-utils.noarch
+
+  systemctl status amazon-efs-mount-watchdog.service
+   18  systemctl start amazon-efs-mount-watchdog.service
+   19  systemctl enable amazon-efs-mount-watchdog.service
+   20  systemctl status amazon-efs-mount-watchdog.service
+   21  systemctl status amazon-efs-mount-watchdog.service
+   22  clear
+   23  echo "<body><h> File 123</h></body>" >> /var/www/html/index.html
+   24  cat >> /var/www/html/index.html
+   25  systemctl restart amazon-efs-mount-watchdog.service
+   26  mount -t efs -o tls edited file
+   27  mount -t efs -o tls fs-0d0757b00ad668dd9:/ /var/www/html/
+   28  clear
+   29  cd /var/www/html/
+   30  ls
+   31  cat index.html
+   32  clear
+   33  ls
+   34  cat index.html
+   35  nano index.html
+   36  history

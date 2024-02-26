@@ -1,0 +1,57 @@
+Encryption types
+
+1- Server side encry - AWS S3 
+2- Client side ecnryp
+3- transition side encryp - web browser - http:\\
+SSL certificate
+
+
+
+
+
+
+one cmp to another cmp 
+
+
+
+transfer acceleration
+
+cache memory ? 
+
+recent ?
+related ?
+process done ?
+existing process ?
+schedule process ?
+
+region - mumbai
+
+edge location - 10GB cachce thane
+- 10 GB cache kalyan
+- xyz
+
+
+
+
+
+
+transfer acceleration
+
+S3 bucket & its objects- process  -  US nearest edge location
+
+region - india
+2 edge location
+data rate 1000
+time 1 hr
+
+=trancsfer accelaartion enable 
+
+
+Bucket policy
+related
+
+
+region - hong kong kapistan balga
+3  edge location
+data rate 4000
+time 30 min

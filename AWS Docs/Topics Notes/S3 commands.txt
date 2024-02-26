@@ -1,0 +1,4 @@
+To access bucket from browser - 
+https://s3.console.aws.amazon.com/s3/buckets/awsexamplebucket/
+
+to copy command - aws s3 cp s3://bucketname/ ./ --recursive 

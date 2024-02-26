@@ -1,0 +1,28 @@
+Storage Lifecycle management
+
+S3 Crosss account management
+
+
+Storage classes
+
+Data Lifecycle role
+
+current live - Standard (30) 
+next live - IA (30)
+IA-one zone
+
+Glacier
+deep archive
+
+
+
+S3 lifecycle management
+
+S3 cross region replication
+paid service 
+
+
+S3 cross account sharing
+ using bucket policy
+
+S3 cannonical ID using ACL

@@ -1,0 +1,40 @@
+AWS CloudFront Service ? used for S3
+
+US to Asia (long distance)
+
+
+CDN - Content Delivery Network
+S3 Server End - databse, Server, apps, or eny thing.any data,
+
+caputre-cache memory - edge location ?
+sharing , provide easily
+
+
+
+What is cloudfront ?
+
+3 uses technologies
+
+1- edge location
+- cache memory
+- nearest accessible
+
+2- origin
+- S3 bucket origin- where s3 created,database, resources of S3 bucket, all files of S3 bucket and its database.
+
+3- disrtibution
+- create edge location binding
+- simpally connect all edge location.
+
+2 ways of distribution
+
+1- web content - storage, website, webapp, or enything related to web.
+
+2- RTMP (real time manamegmet protocol) - live content, flash video or live video streaming.
+
+ Adobe flash streaming, cache memory
+
+
+
+
+

@@ -1,0 +1,15 @@
+security group ?in EC2
+
+Security grp - software firewall.....
+
+traffic flow - inbound and outbound.
+
+inbound rule -imp for upcoming data
+
+outbound rule - it is open for all
+
+Stateful security group - EC2 only  
+inbound rule - SSH - automatically SSH outbound rule open for all
+
+Unstatefull Security group - VPC
+inbound rule - RDP - automatically acces Outbound rule for all

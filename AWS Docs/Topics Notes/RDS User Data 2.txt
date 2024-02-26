@@ -1,0 +1,13 @@
+RDS Bootstrap Script
+
+#!/Bin/bash
+yum install httpds php php-mysql -y
+wget https:// wordpress.org/latest.tar.gz
+tar -xzf latest.tar.gz
+cp -r wordpress/* /var/www/html
+rm -rf wordpress
+rm -rf latest.tar.gz
+chmod -R 755 wp-content
+chown -R apache:apache wp content 
+chkconfig httpd on
+service httpd start

@@ -1,0 +1,51 @@
+Amozon - Route 53 ? 
+
+or DNS ?
+
+netleap - 39.02.12.2 -  29.12.3.1  -  192.68.-.1
+
+
+IANA - Internet Address Numbering Authority
+
+. - root domain
+
+IP4 - 32 bit address 
+
+IP6 - 64 bit address
+
+
+IP Address Classes
+
+1 - Class A - 0 to 126     (127 - IP is used for Loopback)
+
+2 - Class B - 128 to 191
+
+3 - Class C - 192 to 254
+
+4 - Class D - Defence 
+
+5 - Class E - R & D 
+
+
+
+Domain name - bulkmoney.free
+
+IANA Records - 
+
+1.SOA
+
+2.NS record (Name Server) 
+
+browser - www.bulkmoney.free 
+NS record  - 23463.ns.onlydomain.com
+
+3.A record ()
+
+4.C Name
+
+primary domain - www.netleap.co.in mapping to www.mobilenetleap.co.in
+secondary domain - www.mobilenetleap.co.in
+
+5. Alias Record
+
+Primary domain - netleap.co.in mapp mobile.netleap.co.in 

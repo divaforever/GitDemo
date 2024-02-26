@@ -1,0 +1,13 @@
+RDS Backup
+
+1000 Gig Database - 1000 Gig mirror / Backup ready to S3
+
+RDS Multi AZ
+
+RDS Read Replica
+
+us east 1 - 100 Gig
+backup - enble
+
+us east 1B - 100 Gig mirror / backup
+

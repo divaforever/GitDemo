@@ -1,0 +1,59 @@
+EBS Storage  ??
+
+Amazon Elastic Block Storage (EBS) provides persistent block storage volumes for use with amazon EC2 instances in the AWS Cloud.
+Each Amazon EBS volume is automatically replicated within its availability ZOne to pretect you from component failure, offering high availability and durability.
+
+* 5 Different Types of EBS Storage
+1-General Purpose (SSD)
+2-Provisioned IOPS(SSD)
+3-Throughput Optimized Hard Disk Drive
+4-Cold Hard Disk Drive
+5-Magnetic
+
+
+
+
+EBS - Elastic Block Storage
+Virtual Server - Storage EBS
+
+Persistent - Conitnous till we can disturb
+
+Virtual hard disk - Same region allot
+
+one region virtual mc - server storage another region
+
+data lagging lesser
+
+data availability fast
+durabioltiy
+
+
+
+types
+
+General purpose SSD (Solid State Disk)
+
+provisoned IOPS SSD
+
+throughput Optimised SSD
+
+Magnetic  HDD (Hard disk drive)
+
+cold hard disk HDD (Hard disk drive)
+
+
+
+*****EC2 Snapshot******
+
+-Volumes exist on EBS. Think of EBS as a virtual hard disk.
+-Snapshots exist on S3.Think of snapshots as a photograph of the disk.
+-Snapshots are point in the time copies of volumes.
+-Snapshots are incremental - this means that only the blocks that have changed since your last snapshot are moved to S3.
+-If this your first snapshot, it may take some time to create.
+-To create a snapshot for Amazon EBS Volumes that server as root devices, you should stop the instance before taking the snapshot.
+-However you can take a Snap while the instance is running.
+-You can create AMIs from Snapshots.
+-You can change EBS change EBS volume sizes on the fly, including changing the size and storage type.
+-VOlumes will ALWAYS be in the same availibility zone as the EC2 instance.
+-To move an EC2 volume from one AZ to another, take a snapshot of it, create an AMI from the snapshot and then use the AMI to launch the EC2 instance in the New AZ.
+-To move an EC2 volume from one region to another, take a snapshot of it, create an AMI from the snapshot and then copy the AMI from one region to the another. Then use the copied AMI to launch the New EC2 instance in the new region.

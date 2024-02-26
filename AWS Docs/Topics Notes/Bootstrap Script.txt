@@ -1,0 +1,16 @@
+#!/bin/bash
+yum update -y
+yum install httpd -y
+chkconfig httpd on
+service httpd start
+cd /var/www/html
+echo "<html><h1> This is N. Virginia region instance</h1></html>" > index.html
+service httpd start
+
+
+
+Ohio - 18.219.84.74    mumbai   -30ms
+
+Sydney - 13.211.128.73    US n.virginia  -100ms
+
+Ireland - 54.194.196.47    Bahrain  -150ms

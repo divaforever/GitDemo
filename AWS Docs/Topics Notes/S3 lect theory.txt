@@ -1,0 +1,114 @@
+Module - S3 Storage
+
+What is s3 ?
+
+Simple Storage Service 
+
+Unlimited data storage
+
+-object based storage
+- S3 file store 1kb to 5GB
+- storage unlimited
+- access web interface anywhere in the wolrd
+- S3 safe 
+- Bucket use - just folder
+
+
+
+data storage types ?
+
+1-file storage
+
+data cut into pieces and put into next file or folder and continue.....
+
+
+2-block storage
+-data cuts into pieces of blocks
+also puts identifier to block for retrieval
+
+
+3-object storage
+-  bucket - images, files, docs,anything.
+- OS
+
+API - Application Programming interface
+HTTP service
+
+
+
+
+Bucket is having universal access But if permissions allowed 
+
+Bucket name - block_test - access control list (ACL) service
+URL-http://xyz.ama.com//
+
+user1 non aws iam user - http://netleaptests3.s3.amazon.com//
+HTTP 200 code
+
+
+***Bucket name should be universal namespace****
+bucket name - netleaptests3
+
+
+
+
+upload - file1.txt - version-1 @4pm
+
+upload - file1.txt - version-2 @4.1pm
+
+
+S3 Classes
+
+1 S3 Standard
+
+- 99.99% availability 
+- 99.9999999999% durability
+- redundancy  Asia - austrailai
+
+ subservice  - S3 region replication service
+
+
+
+
+
+
+2 S3 IA (infrequently access)
+
+- low cost than S2 standard
+- when needed 
+- retierval pay
+
+3 S3 IA - One Zone
+- low cost than S2 standard
+- when needed 
+- retierval pay
+- Only single zone
+
+4 -i - S3 Glacier
+
+- big data archive and store .
+- retrieval time fast or regular. 
+- retrivale time - minute to hours
+
+4 -ii - S3 Deep Archive
+
+- big data archive and store .
+- retrieval time fast or regular. 
+- retrivale time - depends on data
+- low cost than S3 Glaicer
+
+
+free tier use - 5GB account 
+
+
+
+
+
+
+
+
+
+
+
+
+
